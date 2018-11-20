@@ -1,0 +1,105 @@
+/*!
+ * Start Bootstrap - Blog Post (http://startbootstrap.com/template-overviews/blog-post)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
+ */
+.navbar.navbar-collapse {
+	text-align: center;
+}
+
+.form-inline {
+	display: inline;
+}
+
+.rounded-circle {
+	border-radius: 25px;
+}
+
+.container-bg {
+	background-color: #eeecef;
+}
+
+.navbar-full {
+	width: 100%;
+}
+
+.card-text {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+#btnfechar {
+	visibility: hidden;
+}
+
+.btnfechar {	
+	position: fixed;
+	width: 0;
+    /* top: 20px;
+    right: 45px; */
+    font-size: 60px;
+    visibility: hidden;
+}
+
+.card-title {
+	color: #007bff;
+}
+
+@media screen and (min-width: 0px) and (max-width: 990px) {
+	#mobile-menu {
+		visibility: visible;
+	}
+	/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay */
+	#navbarNavAltMarkup {
+		height: 100%; 
+		//width: 0;
+		width: 40px;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: rgb(0, 0, 0);
+		background-color: rgba(0, 0, 0, 0.9);
+		opacity: 0.9;
+		transition: 0.5s;
+	}
+	
+	#navbarNavAltMarkup ul{
+		left: 25px;		
+		width: 200px;
+	}	
+	
+	
+	#navbarNavAltMarkup .btnfechar {
+		font-size: 40px;
+    	top: 130px;
+    	left: 10px; 
+    	color: #fff;
+    	visibility: visible;
+	}
+	
+	#mobile-ul {
+		position: relative;
+		top: 25%;
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;		
+	}
+	#mobile-ul a {
+		color: #538fef;		 
+		font-weight: bold;
+	}
+	
+	/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay */
+}
+
+@media screen and (min-width: 901px) {
+	#btnfechar {
+		visbility: hidden;
+	}
+	/* #mobile-menu {
+		visibility: hidden;
+	} */
+	/* #navbarNavAltMarkup {
+		visibility: hidden;
+	} */
+}
